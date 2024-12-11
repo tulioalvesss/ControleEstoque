@@ -1,0 +1,85 @@
+
+/* Estilos personalizados */
+.hero {
+    /* background: url('assets/images/dashboard_example_1896x899.png'); background-size: 80%; background-position: center; background-repeat: no-repeat;*/
+    color: black; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 5rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+
+    .hero img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+.image-container {
+    max-width: 100%;
+    height: auto !important;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        height: 200px !important;
+    }
+
+    .feature-card {
+        margin-bottom: 1rem;
+    }
+
+    .row.flex-row-reverse {
+        flex-direction: column-reverse !important;
+    }
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Ajustes responsivos para imagens */
+img.img-fluid {
+    max-width: 100%;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .feature-card {
+        padding: 1rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
